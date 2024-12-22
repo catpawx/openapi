@@ -18,6 +18,7 @@
   "homepage": "https://github.com/catpawx/@catpawx/cli-template#readme",
   "license": "ISC",
   "scripts": {
+    "openapi2ts": "openapi2ts",
     "prepare": "husky",
     "prepublishOnly": "npm run build",
     "commit": "git-cz",
@@ -46,6 +47,7 @@
     "@catpawx/prettier-config-preset": "^2.0.0",
     "@changesets/cli": "^2.27.6",
     "@commitlint/cli": "^19.3.0",
+    "@umijs/openapi": "^1.13.0",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.3",
     "eslint": "^8.12.0",
