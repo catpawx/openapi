@@ -1,6 +1,6 @@
 {
   "name": "@catpawx/openapi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "🐾 猫爪联盟前端团队自动化生成接口",
   "bin": {
     "cpx-openapi": "dist/index.js"
@@ -47,13 +47,19 @@
     "@catpawx/prettier-config-preset": "^2.0.0",
     "@changesets/cli": "^2.27.6",
     "@commitlint/cli": "^19.3.0",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^22.10.2",
     "@umijs/openapi": "^1.13.0",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.3",
     "eslint": "^8.12.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "minimist": "^1.2.8",
     "prettier": "^3.2.5",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "prompts": "^2.4.2",
+    "@types/prompts": "^2.4.9",
+    "picocolors": "^1.1.1"
   }
 }
