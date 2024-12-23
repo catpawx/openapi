@@ -12,8 +12,11 @@ npm install -g @catpawx/openapi
 
 # 使用
 
+后端文档配合改造（重要！）
+在打tag时候，改为形如 @ApiTags('用户管理-UserController')，在之前的中文tag后面加上-Controller名称，这样可以生成对应的文件
+
 ```bash
-cpx-openapi --schemaPath http://localhost:3000/swagger-ui-json --serversPath ./services --projectName api  --namespace API
+cpx-openapi --schemaPath https://nest-admin.dooring.vip/prod-api/swagger-ui-json --serversPath ./services --projectName api  --namespace API
 ```
 
 # 参数说明

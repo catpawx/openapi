@@ -106,9 +106,14 @@ async function init() {
     requestImportStatement,
     hook: {
       customClassName: (tagName: string) => {
-        const name = tagName.slice(tagName.search(/[A-Z]/))
-        // 将name第一个字母小写
-        return name[0].toLowerCase() + name.slice(1)
+        const index = tagName.search(/[A-Z]/)
+        if (index !== -1) {
+          const name = tagName.slice(index)
+          // 将name第一个字母小写
+          return name[0].toLowerCase() + name.slice(1)
+        } else {
+          return tagName
+        }
       },
       customFunctionName: (data: APIDataType) => {
         return (

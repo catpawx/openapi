@@ -7,6 +7,19 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@umijs/openapi':
+        specifier: ^1.13.0
+        version: 1.13.0(typescript@5.4.5)
+      minimist:
+        specifier: ^1.2.8
+        version: 1.2.8
+      picocolors:
+        specifier: ^1.1.1
+        version: 1.1.1
+      prompts:
+        specifier: ^2.4.2
+        version: 2.4.2
     devDependencies:
       '@catpawx/commitlint-config-preset':
         specifier: ^0.1.0
@@ -32,9 +45,6 @@ importers:
       '@types/prompts':
         specifier: ^2.4.9
         version: 2.4.9
-      '@umijs/openapi':
-        specifier: ^1.13.0
-        version: 1.13.0(typescript@5.4.5)
       commitizen:
         specifier: ^4.3.0
         version: 4.3.1(@types/node@22.10.2)(typescript@5.4.5)
@@ -50,18 +60,9 @@ importers:
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.11
-      minimist:
-        specifier: ^1.2.8
-        version: 1.2.8
-      picocolors:
-        specifier: ^1.1.1
-        version: 1.1.1
       prettier:
         specifier: ^3.2.5
         version: 3.4.2
-      prompts:
-        specifier: ^2.4.2
-        version: 2.4.2
       typescript:
         specifier: 5.4.5
         version: 5.4.5
