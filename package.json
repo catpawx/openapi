@@ -1,6 +1,6 @@
 {
   "name": "@catpawx/openapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🐾 猫爪联盟前端团队自动化生成接口",
   "bin": {
     "cpx-openapi": "dist/index.js"
