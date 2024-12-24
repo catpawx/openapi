@@ -16,7 +16,7 @@
     "baseUrl": "./",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "importHelpers": false
+    "importHelpers": true
   },
   "exclude": ["node_modules", "dist", "test"]
 }
